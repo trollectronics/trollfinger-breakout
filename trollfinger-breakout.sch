@@ -1,0 +1,258 @@
+EESchema Schematic File Version 4
+LIBS:trollfinger-breakout-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x10_Counter_Clockwise J1
+U 1 1 5C0D3475
+P 5300 2600
+F 0 "J1" H 5350 3217 50  0000 C CNN
+F 1 "10056847-CARDEDGE" H 5350 3126 50  0000 C CNN
+F 2 "trollbook-footprints:10056847-CARDEDGE" H 5300 2600 50  0001 C CNN
+F 3 "~" H 5300 2600 50  0001 C CNN
+	1    5300 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2200 5100 2200
+Wire Wire Line
+	4500 2600 5100 2600
+Wire Wire Line
+	4500 2800 5100 2800
+Wire Wire Line
+	4500 2900 5100 2900
+Wire Wire Line
+	4500 3000 5100 3000
+Wire Wire Line
+	4500 3100 5100 3100
+Wire Wire Line
+	5600 2200 6200 2200
+Wire Wire Line
+	5600 2300 6200 2300
+Wire Wire Line
+	5600 2400 6200 2400
+Wire Wire Line
+	5600 2600 6200 2600
+Wire Wire Line
+	5600 2700 6200 2700
+Wire Wire Line
+	5600 2900 6200 2900
+Wire Wire Line
+	5600 3000 6200 3000
+Wire Wire Line
+	5600 3100 6200 3100
+Text Label 4550 2200 0    50   ~ 0
+DETECT
+Text Label 4550 2600 0    50   ~ 0
+AN
+Text Label 4550 2800 0    50   ~ 0
+SS1
+Text Label 4550 2900 0    50   ~ 0
+SS2
+Text Label 4550 3000 0    50   ~ 0
+SS3
+Text Label 4550 3100 0    50   ~ 0
+SS4
+Text Label 5750 2200 0    50   ~ 0
+MISO
+Text Label 5750 2300 0    50   ~ 0
+SCK
+Text Label 5750 2400 0    50   ~ 0
+MOSI
+Text Label 5750 2600 0    50   ~ 0
+TX
+Text Label 5750 2700 0    50   ~ 0
+RX
+Text Label 5750 2900 0    50   ~ 0
+INTERRUPT
+Text Label 5750 3000 0    50   ~ 0
+SDA
+Text Label 5750 3100 0    50   ~ 0
+SCL
+$Comp
+L power:GND #PWR0101
+U 1 1 5C0D4DED
+P 5600 2500
+F 0 "#PWR0101" H 5600 2250 50  0001 C CNN
+F 1 "GND" V 5605 2372 50  0000 R CNN
+F 2 "" H 5600 2500 50  0001 C CNN
+F 3 "" H 5600 2500 50  0001 C CNN
+	1    5600 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 5C0D622A
+P 5600 2800
+F 0 "#PWR0102" H 5600 2550 50  0001 C CNN
+F 1 "GND" V 5605 2672 50  0000 R CNN
+F 2 "" H 5600 2800 50  0001 C CNN
+F 3 "" H 5600 2800 50  0001 C CNN
+	1    5600 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5C0D649A
+P 5100 2700
+F 0 "#PWR0103" H 5100 2450 50  0001 C CNN
+F 1 "GND" V 5105 2572 50  0000 R CNN
+F 2 "" H 5100 2700 50  0001 C CNN
+F 3 "" H 5100 2700 50  0001 C CNN
+	1    5100 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0104
+U 1 1 5C0D6DF5
+P 4950 2400
+F 0 "#PWR0104" H 4950 2250 50  0001 C CNN
+F 1 "+3V3" V 4965 2528 50  0000 L CNN
+F 2 "" H 4950 2400 50  0001 C CNN
+F 3 "" H 4950 2400 50  0001 C CNN
+	1    4950 2400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5100 2500 4950 2500
+Wire Wire Line
+	4950 2500 4950 2400
+Wire Wire Line
+	4950 2300 5100 2300
+Wire Wire Line
+	5100 2400 4950 2400
+Connection ~ 4950 2400
+Wire Wire Line
+	4950 2400 4950 2300
+$Comp
+L power:+3V3 #PWR0105
+U 1 1 5C0DAA2A
+P 3400 3900
+F 0 "#PWR0105" H 3400 3750 50  0001 C CNN
+F 1 "+3V3" V 3415 4028 50  0000 L CNN
+F 2 "" H 3400 3900 50  0001 C CNN
+F 3 "" H 3400 3900 50  0001 C CNN
+	1    3400 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5C0DAC93
+P 2900 3700
+F 0 "#PWR0106" H 2900 3450 50  0001 C CNN
+F 1 "GND" V 2905 3572 50  0000 R CNN
+F 2 "" H 2900 3700 50  0001 C CNN
+F 3 "" H 2900 3700 50  0001 C CNN
+	1    2900 3700
+	0    1    1    0   
+$EndComp
+Text Label 2900 3900 2    50   ~ 0
+TX
+Text Label 2900 3800 2    50   ~ 0
+RX
+Wire Wire Line
+	3400 4200 4000 4200
+Wire Wire Line
+	3400 4000 4000 4000
+Wire Wire Line
+	3400 3800 4000 3800
+Text Label 3550 3800 0    50   ~ 0
+MISO
+Text Label 3550 4000 0    50   ~ 0
+SCK
+Text Label 3550 4200 0    50   ~ 0
+MOSI
+Wire Wire Line
+	3400 3600 4000 3600
+Wire Wire Line
+	3400 3500 4000 3500
+Wire Wire Line
+	3400 3400 4000 3400
+Wire Wire Line
+	3400 3300 4000 3300
+Text Label 3450 3600 0    50   ~ 0
+SS1
+Text Label 3450 3500 0    50   ~ 0
+SS2
+Text Label 3450 3400 0    50   ~ 0
+SS3
+Text Label 3450 3300 0    50   ~ 0
+SS4
+Text Label 2900 4000 2    50   ~ 0
+DETECT
+Text Label 2900 4200 2    50   ~ 0
+AN
+Text Label 2900 3600 2    50   ~ 0
+INTERRUPT
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even J1001
+U 1 1 5C44F4C6
+P 3100 3700
+F 0 "J1001" H 3150 4317 50  0000 C CNN
+F 1 "Pin header" H 3150 4226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical" H 3100 3700 50  0001 C CNN
+F 3 "~" H 3100 3700 50  0001 C CNN
+	1    3100 3700
+	1    0    0    -1  
+$EndComp
+Text Label 2900 3300 2    50   ~ 0
+SCL
+Text Label 2900 3400 2    50   ~ 0
+SDA
+$Comp
+L power:GND #PWR0107
+U 1 1 5C45F9BE
+P 2900 3500
+F 0 "#PWR0107" H 2900 3250 50  0001 C CNN
+F 1 "GND" V 2905 3372 50  0000 R CNN
+F 2 "" H 2900 3500 50  0001 C CNN
+F 3 "" H 2900 3500 50  0001 C CNN
+	1    2900 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5C45FC5E
+P 3400 3700
+F 0 "#PWR0108" H 3400 3450 50  0001 C CNN
+F 1 "GND" V 3405 3572 50  0000 R CNN
+F 2 "" H 3400 3700 50  0001 C CNN
+F 3 "" H 3400 3700 50  0001 C CNN
+	1    3400 3700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0109
+U 1 1 5C45FF04
+P 3400 4100
+F 0 "#PWR0109" H 3400 3950 50  0001 C CNN
+F 1 "+3V3" V 3415 4228 50  0000 L CNN
+F 2 "" H 3400 4100 50  0001 C CNN
+F 3 "" H 3400 4100 50  0001 C CNN
+	1    3400 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0110
+U 1 1 5C4645B6
+P 2900 4100
+F 0 "#PWR0110" H 2900 3950 50  0001 C CNN
+F 1 "+3V3" V 2915 4228 50  0000 L CNN
+F 2 "" H 2900 4100 50  0001 C CNN
+F 3 "" H 2900 4100 50  0001 C CNN
+	1    2900 4100
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
