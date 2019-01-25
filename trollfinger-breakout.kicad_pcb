@@ -1,4 +1,4 @@
-(kicad_pcb (version 20171130) (host pcbnew 6.0.0-rc1-unknown-9cac0a3~66~ubuntu16.04.1)
+(kicad_pcb (version 20171130) (host pcbnew 6.0.0-rc1-unknown-bb2e402~66~ubuntu16.04.1)
 
   (general
     (thickness 1)
@@ -34,7 +34,7 @@
   )
 
   (setup
-    (last_trace_width 0.8)
+    (last_trace_width 0.5)
     (user_trace_width 0.8)
     (trace_clearance 0.2)
     (zone_clearance 0.5)
@@ -288,8 +288,8 @@
   (gr_line (start 145 90) (end 139 87) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 154.2 100.9) (end 154.2 90) (layer Edge.Cuts) (width 0.05) (tstamp 5C0D8823))
   (gr_line (start 145 100.9) (end 145 90) (layer Edge.Cuts) (width 0.05) (tstamp 5C0D8820))
-  (gr_poly (pts (xy 145.3 103.2) (xy 154.4 103.2) (xy 154.4 107.4) (xy 145.3 107.4)) (layer B.Mask) (width 0.1))
-  (gr_poly (pts (xy 145.3 103.2) (xy 154.4 103.2) (xy 154.4 107.4) (xy 145.3 107.4)) (layer F.Mask) (width 0.1))
+  (gr_poly (pts (xy 145.1 103.2) (xy 154.2 103.2) (xy 154.2 107.4) (xy 145.1 107.4)) (layer B.Mask) (width 0.1))
+  (gr_poly (pts (xy 145.1 103.2) (xy 154.2 103.2) (xy 154.2 107.4) (xy 145.1 107.4)) (layer F.Mask) (width 0.1))
   (gr_text DET (at 144.89 78.79) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -350,8 +350,6 @@
   (segment (start 146.1 105.063374) (end 146.1 81.43) (width 0.5) (layer F.Cu) (net 1))
   (segment (start 148.596626 105.16) (end 147.796626 105.16) (width 0.5) (layer F.Cu) (net 2))
   (segment (start 147.796626 105.16) (end 146.996626 105.16) (width 0.5) (layer F.Cu) (net 2))
-  (segment (start 150.196626 105.16) (end 150.196626 87.803374) (width 0.5) (layer F.Cu) (net 4))
-  (segment (start 154 84) (end 154 84) (width 0.5) (layer F.Cu) (net 4))
   (segment (start 151.53 76) (end 151.29 76.24) (width 0.5) (layer F.Cu) (net 2))
   (segment (start 147.796626 102.596626) (end 147 101.8) (width 0.8) (layer F.Cu) (net 2))
   (segment (start 147.796626 105.16) (end 147.796626 102.596626) (width 0.8) (layer F.Cu) (net 2))
@@ -365,6 +363,8 @@
   (segment (start 148.4 101.9) (end 148.4 84.21) (width 0.5) (layer F.Cu) (net 3))
   (segment (start 149.396626 105.16) (end 149.396626 102.896626) (width 0.5) (layer F.Cu) (net 3))
   (segment (start 149.396626 102.896626) (end 148.4 101.9) (width 0.5) (layer F.Cu) (net 3))
+  (segment (start 150.196626 105.16) (end 150.196626 87.803374) (width 0.5) (layer F.Cu) (net 4))
+  (segment (start 154 84) (end 154 84) (width 0.5) (layer F.Cu) (net 4))
   (segment (start 148.195082 105.16) (end 148.195082 88.295082) (width 0.5) (layer B.Cu) (net 4))
   (segment (start 148.195082 88.295082) (end 148 88.1) (width 0.5) (layer B.Cu) (net 4))
   (via (at 144.7 84.8) (size 1) (drill 0.5) (layers F.Cu B.Cu) (net 4))

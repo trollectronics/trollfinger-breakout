@@ -1,4 +1,4 @@
-14349435804934165
+14414502510753165
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -34678,6 +34678,13 @@ RJ45 Magjack
 14
 13
 Connector_RJ
+RJ45_BEL_SS74301-00x_Vertical
+https://belfuse.com/resources/drawings/stewartconnector/dr-stw-ss-74301-001-ss-74301-002-ss-74301-005.pdf
+RJ45 Vertical Shield LED Green Yellow
+0
+14
+13
+Connector_RJ
 RJ45_Cetus_J1B1211CCD_Horizontal
 1 Port RJ45 Magjack Connector Through Hole 10/100 Base-T, Cetus, used and distributed by WIZnet (https://wizwiki.net/wiki/lib/exe/fetch.php?media=products:wiz550web:wiz550webds_kr:j1b1211ccd.pdf)
 RJ45 Magjack
@@ -39262,6 +39269,20 @@ Mini-Circuits Filter SMD 1206
 0
 5
 3
+Filter
+Filter_Murata_BNX025
+https://www.murata.com/en-us/products/productdata/8796778004510/QNFH9101.pdf?1496719830000
+EMI Filter
+0
+6
+4
+Filter
+Filter_Murata_BNX025_ThermalVias
+https://www.murata.com/en-us/products/productdata/8796778004510/QNFH9101.pdf?1496719830000
+EMI Filter
+0
+19
+4
 Fuse
 Fuseholder_Blade_ATO_Littelfuse_Pudenz_2_Pin
 Fuseholder ATO Blade littelfuse Pudenz 2 Pin
@@ -41916,6 +41937,34 @@ CommonModeChoke Gleichtaktdrossel
 4
 4
 Inductor_THT
+L_Mount_Lodestone_VTM120
+Lodestone Pacific, 30.48mm diameter vertical toroid mount, 16AWG/1.27mm holes, http://www.lodestonepacific.com/CatKpdf/VTM_Series.pdf
+vertical inductor toroid mount
+0
+4
+4
+Inductor_THT
+L_Mount_Lodestone_VTM160
+Lodestone Pacific, 40.64mm diameter vertical toroid mount, 16AWG/1.27mm holes, http://www.lodestonepacific.com/CatKpdf/VTM_Series.pdf
+vertical inductor toroid mount
+0
+4
+4
+Inductor_THT
+L_Mount_Lodestone_VTM254
+Lodestone Pacific, 64.51mm diameter vertical toroid mount, 16AWG/1.27mm holes, http://www.lodestonepacific.com/CatKpdf/VTM_Series.pdf
+vertical inductor toroid mount
+0
+4
+4
+Inductor_THT
+L_Mount_Lodestone_VTM280
+Lodestone Pacific, 71.12mm diameter vertical toroid mount, 16AWG/1.27mm holes, http://www.lodestonepacific.com/CatKpdf/VTM_Series.pdf
+vertical inductor toroid mount
+0
+4
+4
+Inductor_THT
 L_Radial_D6.0mm_P4.00mm
 Inductor, Radial series, Radial, pin pitch=4.00mm, , diameter=6.0mm, http://www.abracon.com/Magnetics/radial/AIUR-07.pdf
 Inductor Radial series Radial pin pitch 4.00mm  diameter 6.0mm
@@ -44134,6 +44183,13 @@ ST Morpho Connector 144 STLink
 0
 148
 148
+Module
+WEMOS_D1_mini_light
+16-pin module, column spacing 22.86 mm (900 mils), https://wiki.wemos.cc/products:d1:d1_mini, https://c1.staticflickr.com/1/734/31400410271_f278b087db_z.jpg
+ESP8266 WiFi microcontroller
+0
+16
+16
 MountingHole
 MountingHole_2.1mm
 Mounting Hole 2.1mm, no annular
@@ -45388,6 +45444,13 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 4
 4
 Oscillator
+Oscillator_SMD_Abracon_ABLNO
+https://abracon.com/Precisiontiming/ABLNO.pdf
+VCXO XO
+0
+4
+4
+Oscillator
 Oscillator_SMD_Abracon_ASCO-4Pin_1.6x1.2mm
 Miniature Crystal Clock Oscillator Abracon ASCO series, https://abracon.com/Oscillators/ASCO.pdf, 1.6x1.2mm^2 package
 SMD SMT crystal oscillator
@@ -45675,6 +45738,13 @@ SI570 SI571 Programmable oscillator Standard
 8
 8
 Oscillator
+Oscillator_SMD_Silicon_Labs_LGA-6_2.5x3.2mm_P1.25mm
+Silicon_Labs  LGA, 6 Pin (https://www.silabs.com/documents/public/data-sheets/si512-13.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+Silicon_Labs LGA NoLead
+0
+6
+6
+Oscillator
 Oscillator_SMD_TCXO_G158
 TCXO
 TCXO
@@ -45961,6 +46031,20 @@ BGA 8 0.4
 0
 8
 8
+Package_BGA
+Lattice_caBGA-381_17.0x17.0mm_Layout20x20_P0.8mm_Ball0.4mm_Pad0.4mm_NSMD
+Lattice caBGA-381 footprint for ECP5 FPGAs, based on http://www.latticesemi.com/view_document?document_id=213
+BGA 381 0.8
+0
+381
+381
+Package_BGA
+Lattice_caBGA-381_17.0x17.0mm_Layout20x20_P0.8mm_Ball0.4mm_Pad0.6mm_SMD
+Lattice caBGA-381 footprint for ECP5 FPGAs, based on http://www.latticesemi.com/view_document?document_id=213
+BGA 381 0.8
+0
+381
+381
 Package_BGA
 LFBGA-100_10x10mm_Layout10x10_P0.8mm
 LFBGA-100, 10x10 raster, 10x10mm package, pitch 0.8mm; see section 6.3 of http://www.st.com/resource/en/datasheet/stm32f103tb.pdf
@@ -46353,6 +46437,20 @@ LFCSP DFN_QFN
 0
 35
 21
+Package_CSP
+LFCSP-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm
+LFCSP, 24 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_24_7.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+LFCSP DFN_QFN
+0
+29
+25
+Package_CSP
+LFCSP-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias
+LFCSP, 24 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_24_7.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+LFCSP DFN_QFN
+0
+39
+25
 Package_CSP
 LFCSP-32-1EP_5x5mm_P0.5mm_EP3.25x3.25mm
 32-Lead Frame Chip Scale Package LFCSP (5mm x 5mm); (see http://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-32/CP_32_27.pdf
@@ -48524,6 +48622,13 @@ ti qfm mof0009a
 24
 9
 Package_DFN_QFN
+Texas_R-PUQFN-N10
+http://www.ti.com/general/docs/lit/getliterature.tsp?baseLiteratureNumber=MPQF186&fileType=pdf
+Texas_R-PUQFN-N10
+0
+10
+10
+Package_DFN_QFN
 Texas_R-PWQFN-N28_EP2.1x3.1mm
 QFN, 28 Pin (http://www.ti.com/lit/ds/symlink/tps51363.pdf), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
 QFN DFN_QFN
@@ -49096,6 +49201,20 @@ WQFN-16-1EP_3x3mm_P0.5mm_EP1.75x1.75mm
 QFN 0.5
 0
 21
+17
+Package_DFN_QFN
+WQFN-16-1EP_4x4mm_P0.5mm_EP2.6x2.6mm
+WQFN, 16 Pin (http://www.ti.com/lit/ds/symlink/ldc1312.pdf#page=59), generated with kicad-footprint-generator ipc_noLead_generator.py
+WQFN NoLead
+0
+21
+17
+Package_DFN_QFN
+WQFN-16-1EP_4x4mm_P0.5mm_EP2.6x2.6mm_ThermalVias
+WQFN, 16 Pin (http://www.ti.com/lit/ds/symlink/ldc1312.pdf#page=59), generated with kicad-footprint-generator ipc_noLead_generator.py
+WQFN NoLead
+0
+31
 17
 Package_DFN_QFN
 WQFN-16-1EP_4x4mm_P0.65mm_EP2.1x2.1mm
@@ -52192,6 +52311,13 @@ RF Transformer
 6
 6
 Package_SO
+Mini-Circuits_CK605_LandPatternPL-012
+Footprint for Mini-Circuits case CK605 (https://ww2.minicircuits.com/case_style/CK605.pdf) following land pattern PL-012, including GND vias (https://ww2.minicircuits.com/pcb/98-pl012.pdf)
+Mini-Circuits PL-012
+0
+53
+16
+Package_SO
 Mini-Circuits_GP731_LandPatternPL-176
 Footprint for Mini-Circuits case GP731 (https://ww2.minicircuits.com/case_style/GP731.pdf) following land pattern PL-176, including GND vias (https://www.minicircuits.com/pcb/98-pl176.pdf)
 mini-circuits PL-176
@@ -52213,6 +52339,13 @@ Mini-Circuits PL-230
 37
 8
 Package_SO
+Mini-Circuits_HZ1198_LandPatternPL-247
+Footprint for Mini-Circuits cas HZ1198 (https://ww2.minicircuits.com/case_style/HZ1198.pdf) following land pattern PL-247, including GND-vias (https://www.minicircuits.com/pcb/98-pl247.pdf)
+Mini-Circuits PL-247 HZ1198
+0
+40
+6
+Package_SO
 Mini-Circuits_MMM168_LandPatternPL-225
 Footprint for Mini-Circuits case MMM168, Land pattern PL-225, vias included, (case drawing: https://ww2.minicircuits.com/case_style/MMM168.pdf, land pattern drawing: https://ww2.minicircuits.com/pcb/98-pl225.pdf)
 pl-225
@@ -52232,6 +52365,13 @@ Footprint for Mini-Circuits case TT1224 (https://ww2.minicircuits.com/case_style
 PL-258 Mini-Circuits
 0
 26
+6
+Package_SO
+Mini-Circuits_TTT167_LandPatternPL-079
+Footprint for Mini-Circuits case TTT167 (Mini-Circuits_TTT167_LandPatternPL-079) following land pattern PL-079, including GND vias (https://ww2.minicircuits.com/pcb/98-pl079.pdf)
+Mini-Circuits PL-079
+0
+36
 6
 Package_SO
 Mini-Circuits_YY161_LandPatternPL-049
@@ -52632,6 +52772,13 @@ SOP 1.27
 0
 4
 4
+Package_SO
+SOP-8_6.62x9.15mm_P2.54mm
+SOP, 8 Pin (http://www.ti.com/lit/ds/symlink/iso1050.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOP SO
+0
+8
+8
 Package_SO
 SOP-16_4.4x10.4mm_P1.27mm
 16-Lead Plastic Small Outline http://www.vishay.com/docs/49633/sg2098.pdf
@@ -53291,6 +53438,20 @@ Texas WSON6 2x2mm
 10
 8
 Package_SON
+Texas_DRC0010J
+Texas DRC0010J, VSON10 3x3mm Body, 0.5mm Pitch,  http://www.ti.com/lit/ds/symlink/tps63000.pdf
+Texas VSON10 3x3mm
+0
+17
+11
+Package_SON
+Texas_DRC0010J_ThermalVias
+Texas DRC0010J, VSON10 3x3mm Body, 0.5mm Pitch,  http://www.ti.com/lit/ds/symlink/tps63000.pdf
+Texas VSON10 3x3mm
+0
+21
+11
+Package_SON
 Texas_DSC0010J
 3x3mm Body, 0.5mm Pitch, DSC0010J, WSON, http://www.ti.com/lit/ds/symlink/tps61201.pdf
 0.5 DSC0010J WSON
@@ -53445,6 +53606,20 @@ VSONP 1.27
 13
 3
 Package_SON
+WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm
+WSON, 6 Pin (http://www.ti.com/lit/ds/symlink/tps61040.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+9
+7
+Package_SON
+WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm_ThermalVias
+WSON, 6 Pin (http://www.ti.com/lit/ds/symlink/tps61040.pdf#page=35), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+12
+7
+Package_SON
 WSON-6-1EP_3x3mm_P0.95mm
 WSON6 3*3 MM, 0.95 PITCH; http://www.ti.com/lit/ds/symlink/lmr62421.pdf
 WSON6 0.95
@@ -53527,6 +53702,20 @@ WSON-12 http://www.ti.com/lit/ds/symlink/lm27762.pdf
 WSON-12
 0
 19
+13
+Package_SON
+WSON-12-1EP_4x4mm_P0.5mm_EP2.6x3mm
+WSON, 12 Pin (http://www.ti.com/lit/ds/symlink/ldc1312.pdf#page=62), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+17
+13
+Package_SON
+WSON-12-1EP_4x4mm_P0.5mm_EP2.6x3mm_ThermalVias
+WSON, 12 Pin (http://www.ti.com/lit/ds/symlink/ldc1312.pdf#page=62), generated with kicad-footprint-generator ipc_noLead_generator.py
+WSON NoLead
+0
+27
 13
 Package_SON
 WSON-14-1EP_4.0x4.0mm_P0.5mm_EP2.6x2.6mm
@@ -57449,6 +57638,13 @@ Standex Meder SIL reed relais
 4
 4
 Relay_THT
+Relay_SPST_TE_PCH-1xxx2M
+Miniature PCB Relay, PCH Series, 1 Form A (NO), SPST http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FPCH_series_relay_data_sheet_E%7F1215%7Fpdf%7FEnglish%7FENG_DS_PCH_series_relay_data_sheet_E_1215.pdf
+Relay SPST NO
+0
+4
+4
+Relay_THT
 Relay_StandexMeder_DIP_HighProfile
 package for Standex Meder DIP reed relay series, see https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf
 DIL DIP PDIP 2.54mm 7.62mm 300mil reed relay
@@ -59500,7 +59696,35 @@ Logo FCC certification
 0
 0
 Symbol
+KiCad-Logo2_5mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo2_5mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo2_6mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
 KiCad-Logo2_6mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo2_8mm_Copper
 KiCad Logo
 Logo KiCad
 0
@@ -59514,7 +59738,21 @@ Logo KiCad
 0
 0
 Symbol
+KiCad-Logo2_12mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
 KiCad-Logo2_12mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo2_20mm_Copper
 KiCad Logo
 Logo KiCad
 0
@@ -59528,7 +59766,21 @@ Logo KiCad
 0
 0
 Symbol
+KiCad-Logo2_30mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
 KiCad-Logo2_30mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo2_40mm_Copper
 KiCad Logo
 Logo KiCad
 0
@@ -59549,7 +59801,14 @@ Logo KiCad
 0
 0
 Symbol
-KiCad-Logo_5mm_SolderMask
+KiCad-Logo_5mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo_6mm_Copper
 KiCad Logo
 Logo KiCad
 0
@@ -59563,7 +59822,21 @@ Logo KiCad
 0
 0
 Symbol
+KiCad-Logo_8mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
 KiCad-Logo_8mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo_12mm_Copper
 KiCad Logo
 Logo KiCad
 0
@@ -59577,6 +59850,13 @@ Logo KiCad
 0
 0
 Symbol
+KiCad-Logo_20mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
 KiCad-Logo_20mm_SilkScreen
 KiCad Logo
 Logo KiCad
@@ -59584,7 +59864,21 @@ Logo KiCad
 0
 0
 Symbol
+KiCad-Logo_30mm_Copper
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
 KiCad-Logo_30mm_SilkScreen
+KiCad Logo
+Logo KiCad
+0
+0
+0
+Symbol
+KiCad-Logo_40mm_Copper
 KiCad Logo
 Logo KiCad
 0
@@ -60189,13 +60483,6 @@ Symbol
 Symbol_HighVoltage_Type2_CopperTop_VerySmall
 Symbol, High Voltage, Type 2, Copper Top, Very Small,
 Symbol, High Voltage, Type 2, Copper Top, Very Small,
-0
-0
-0
-Symbol
-Symbol_KiCAD-Logo_CopperAndSilkScreenTop
-Symbol, KiCAD-Logo, Silk & Copper Top,
-Symbol, KiCAD-Logo, Silk & Copper Top,
 0
 0
 0
@@ -63808,6 +64095,13 @@ Transformer_SMD
 Transformer_Ethernet_Bel_S558-5999-T7-F
 Ethernet Transformer, Bel S558-5999-T7-F, https://www.belfuse.com/resources/ICMs/lan-/S558-5999-T7-F.pdf
 Ethernet Transformer
+0
+16
+16
+Transformer_SMD
+Transformer_Ethernet_Bourns_PT61017PEL
+https://www.bourns.com/docs/Product-Datasheets/PT61017PEL.pdf
+Transformer Ethernet Single Center-Tap
 0
 16
 16
